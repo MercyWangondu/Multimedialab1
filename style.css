@@ -1,0 +1,116 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #fdfbfb, #ebedee);
+    color: #333;
+    line-height: 1.6;
+    padding: 0 1rem;
+    animation: fadeIn 2s ease-in;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #003366, #005aa7);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.hero .logo {
+    width: 100px;
+    animation: slideIn 1.5s ease-in-out;
+}
+.hero h1 {
+    font-size: 3rem;
+    margin-top: 10px;
+}
+.tagline {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Cards */
+.card {
+    background: white;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 900px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+}
+
+/* Glassmorphism Table */
+.glass {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table th, table td {
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+table th {
+    background-color: #003366;
+    color: white;
+}
+table tr:hover {
+    background-color: #f0f0f0;
+}
+
+/* Lists & Images */
+ul {
+    list-style: square inside;
+    padding-left: 10px;
+}
+.project-image {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+footer .credits {
+    font-size: 0.9rem;
+    margin-top: 15px;
+    opacity: 0.8;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideIn {
+    0% { transform: scale(0); }
+    100% { transform: scale(1); }
+}
