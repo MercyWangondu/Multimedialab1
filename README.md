@@ -10,7 +10,7 @@
 ---
 
 ## Project Overview
-This project is a visually appealing HTML & CSS webpage for Strathmore University, created as part of a lab activity. The page showcases the university's vision, mission, schools, achievements, ongoing projects, and contact information, following the provided requirements.
+This project is a visually appealing HTML & CSS webpage for Strathmore University, created as Multimedia Lab 1 activity. The page showcases the university's vision, mission, schools, achievements, ongoing projects, and contact information, following the provided requirements.
 
 ---
 
